@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <title>SuperCalculadora</title>
+  </head>
+  <body>
+    <div class="card blue-grey z-depth-1 row center">
+      <div class="card-content white-text">
+        <h1>SuperCalculadora</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col xl6 l6 m6 s12">
+        <div class="card grey lighten-3 z-depth-1 row center">
+          <div class="card-content black-text">
+            <label class="active" for="primeiroNumero"
+              >Primeiro Número (A):</label
+            >
+            <input value="xxx" id="primeiroNumero" type="number" />
+          </div>
+        </div>
+      </div>
+      <div class="col xl6 l6 m6 s12">
+        <div class="card grey lighten-3 z-depth-1 row center">
+          <div class="card-content black-text">
+            <label class="active" for="segundoNumero"
+              >Segundo Número (B):</label
+            >
+            <input value="xxx" id="segundoNumero" type="number" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row center">
+      <h3>Cálculos</h3>
+    </div>
+
+    <div class="row">
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="soma">Soma (a + b):</label>
+        <input value="xxx" id="soma" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="sub1">Subtração 1 (a - b):</label>
+        <input value="xxx" id="sub1" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="sub2">Subtração 2 (b - a):</label>
+        <input value="xxx" id="sub2" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="multi">Multiplicação (a x b):</label>
+        <input value="xxx" id="multi" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="div1">Divisão 1 (a / b):</label>
+        <input value="xxx" id="div1" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="div2">Divisão 2 (b / a):</label>
+        <input value="xxx" id="div2" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="sqrtA">Quadrado de a (a²):</label>
+        <input value="xxx" id="sqrtA" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="sqrtB">Quadrado de b (b²):</label>
+        <input value="xxx" id="sqrtB" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="divIntA">Divisores inteiros de a:</label>
+        <input value="xxx" id="divIntA" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="divIntB">Divisores inteiros de b:</label>
+        <input value="xxx" id="divIntB" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="fatA">Fatorial de a (a!):</label>
+        <input value="xxx" id="fatA" type="text" disabled />
+      </div>
+      <div class="col xl4 l4 m6 s12">
+        <label class="active" for="fatB">Fatorial de b (b!):</label>
+        <input value="xxx" id="fatB" type="text" disabled />
+      </div>
+    </div>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
